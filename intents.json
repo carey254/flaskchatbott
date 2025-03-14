@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Is anyone there?",
+        "I need help"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi there, are you in an emergency?",
+        "Hey! Do you need immediate assistance?"
+      ]
+    },
+    {
+      "tag": "emergency_alert",
+      "patterns": [
+        "Send emergency alert",
+        "Help me!",
+        "I'm in danger",
+        "Shake not working",
+        "Alert my emergency contact"
+      ],
+      "responses": [
+        "Emergency alert sent! Your contact has been notified with your location.",
+        "Help is on the way! Stay safe.",
+        "We have alerted your emergency contact. Hang in there!"
+      ]
+    },
+    {
+      "tag": "emergency_numbers",
+      "patterns": [
+        "Call 1195",
+        "Call 999",
+        "Call the police",
+        "Emergency hotline"
+      ],
+      "responses": [
+        "Dialing 1195 for emergency assistance...",
+        "Connecting you to 999... Stay on the line!",
+        "Emergency services contacted!"
+      ]
+    },
+    {
+      "tag": "mentor_support",
+      "patterns": [
+        "I need to talk to a mentor",
+        "Connect me with a professional",
+        "I need counseling",
+        "Can I speak to a mentor?"
+      ],
+      "responses": [
+        "Connecting you with a professional mentor now...",
+        "A mentor is available to chat. How can they assist you?",
+        "You're not alone. We're here to support you. Chatting with a mentor now..."
+      ]
+    },
+    {
+      "tag": "safety_tips",
+      "patterns": [
+        "How can I stay safe?",
+        "Give me safety tips",
+        "What should I do in an emergency?"
+      ],
+      "responses": [
+        "Stay in a well-lit area and alert someone nearby.",
+        "Keep your phone charged and share your location with a trusted contact.",
+        "Use Bila Woga's shake feature to send alerts instantly!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Take care and stay safe!",
+        "Goodbye! Remember, help is always a shake away.",
+        "See you soon! Stay secure."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That was helpful"
+      ],
+      "responses": [
+        "Glad to help! Stay safe.",
+        "You're welcome! Let me know if you need anything else.",
+        "Always here to assist you!"
+      ]
+    }
+  ]
+}
